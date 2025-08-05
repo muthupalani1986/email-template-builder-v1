@@ -1,0 +1,43 @@
+{
+  "name": "email-template-tool",
+  "version": "1.0.0",
+  "description": "A web-based email template management tool with Next.js and PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "node server/index.js",
+    "dev:server": "nodemon server/index.js"
+  },
+  "keywords": ["email", "template", "nextjs", "postgresql", "mui"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.0",
+    "@mui/material": "^7.3.0",
+    "@tinymce/tinymce-react": "^6.3.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^15.4.5",
+    "pg": "^8.16.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.10.7",
+    "@types/pg": "^8.15.5",
+    "@types/react": "^19.1.0",
+    "nodemon": "^3.1.0"
+  }
+}
